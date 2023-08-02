@@ -1,0 +1,4 @@
+#!/bin/bash
+# this script extact all the breeds typese from catfacts.json
+jq '.[] | .breed' catfacts.json
+
